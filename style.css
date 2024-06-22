@@ -89,9 +89,10 @@ align-items: center;
 #newGameButton{
     border-radius: 50px;
 }
-@media screen (min-width:800px){
+@media(min-width:800px){
     body{
-        width:60vw
+        width:60vw;
     }
-}    
+}  
+
 
