@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Advinhe o Numero</title>
+    <title>Jogo</title>
 </head>
 
 <body onload="init()">
     <main>
         <div id="welcomeScreen">
-            <h2>Advinhe o numero<br />1 - 100</h2>
+            <h2>Advinhe o número<br />1 - 100</h2>
         </div>
 
         <div id="gameArea">
             <section>
-                <h3 id="textOutput">Your Guess:</h3>
+                <h3 id="textOutput">Dicas do Jogo:</h3>
                 <input type="number" id="inputBox" min="1" max="100" onchange="compareNumbers()" />
             </section>
             <section class="stats">
                 <div class="info">
-                    <p>Number of attempts:</p>
+                    <p>Numero de Tentatativas:</p>
                     <span id="attempts">0</span>
                 </div>
                 <div class="info">
-                    <p>Your guesses:</p>
+                    <p>Seus palpites:</p>
                     <span id="guesses">0</span>
                 </div>
             </section>
